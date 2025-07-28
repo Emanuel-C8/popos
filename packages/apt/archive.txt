@@ -1,0 +1,1 @@
+unzip unrar p7zip tar gzip bzip2 lrzip lzip zstd

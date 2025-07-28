@@ -1,0 +1,1 @@
+texlive-full ghostscript pandoc mdp latexmk

@@ -1,0 +1,19 @@
+#!/bin/bash
+function installpackages()
+{
+for a in `cat $1`; 
+do
+	sudo apt install $a
+done
+}
+function checkpackageexistencebatch()
+{
+for a in `cat $1`; 
+do
+	apt-cache search $a
+done
+}
+function installpackagesbatch()
+{
+	sudo apt install $(cat $1) -y
+}
