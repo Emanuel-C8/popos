@@ -27,6 +27,9 @@
     echo "exec dwm" > ~/.xinitrc
     chmod +x ~/.xinitrc
 
+    echo "Disabling gdm, it boots just to  TTY"
+    sudo systemctl disable gdm
+
     echo ""
     echo "=== Setup complete! ==="
     echo "Make sure to logout and log back in or source ~/.bashrc for PATH changes."
