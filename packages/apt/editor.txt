@@ -1,1 +1,1 @@
-vim neovim
+vim neovim taskwarrior timewarrior calcurse 
